@@ -1,0 +1,133 @@
+/*.container{
+   background-image: url(bg1.jpg);
+    background-size: cover;
+    background-blend-mode: lighten;
+    height: 100vh;
+}
+.order {
+    width: 390px;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    top: 15%;
+    padding: 20px;
+    background-color: skyblue;
+    border-radius: 15px;
+    cursor: pointer;
+}
+h2{  
+    text-align: center;  
+    color: #2313b4;  
+    padding: 20px;  
+}  
+label{  
+    color: blue;
+    font-size: 17px;
+    width: 152px;
+    display: inline-block;
+    padding-left: 5px;
+}
+#fname{  
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+} 
+#p_name{  
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}  
+#email{  
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+  
+} 
+#country {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+} 
+#weight {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+} 
+#total {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+} 
+#orderno {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+} 
+#sign{  
+    width: 150px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;    
+    color: blue;  
+}  
+.order1{
+    width: 350px;
+    display: inline-block;
+}
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+  
+}  
+.btn{
+    text-align: center;
+} */
+.order-section{
+  padding: 40px;
+  overflow: hidden;
+  width: 100%;
+}
+.form-row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputholder{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.inputholder label{
+  width: 160px;
+}
+.inputholder input{
+  width: 300px;
+}
+#customer_order_form .btn-order{
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background: #16097a;
+  font-weight: 800;
+  height: 45px;
+  text-align: center;
+}

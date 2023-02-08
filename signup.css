@@ -1,0 +1,87 @@
+.container{
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-blend-mode: lighten;
+    height: 100vh;
+}
+.signup {
+    width: 390px;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    top: 15%;
+    padding: 20px;
+    background-color: skyblue;
+    border-radius: 15px;
+    cursor: pointer;
+}
+h2{  
+    text-align: center;  
+    color: #2313b4;  
+    padding: 20px;  
+}  
+label{  
+    color: blue;
+    font-size: 17px;
+    width: 152px;
+    display: inline-block;
+    padding-left: 5px;
+}
+#fname{  
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+} 
+#user{  
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}  
+#email{  
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+  
+} 
+#pass {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+} 
+#c_pass {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}  
+#sign{  
+    width: 150px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;    
+    color: blue;  
+}  
+.sign1{
+    width: 350px;
+    display: inline-block;
+}
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+  
+}  
+.btn{
+    text-align: center;
+} 
